@@ -480,6 +480,11 @@ func run() {
 		}
 
 		// --- Difficulty settings per level ---
+		// For each level, we adjust enemy behavior and asteroid frequency to make the game progressively harder.
+		// enemySpeed: how fast enemies move
+		// enemyShotInterval: how often enemies shoot
+		// bulletsPerShot: number of bullets fired per shot
+		// asteroidSpawnRate: probability of a new asteroid appearing each frame
 		var enemySpeed float64
 		var enemyShotInterval time.Duration
 		var bulletsPerShot int
@@ -496,7 +501,7 @@ func run() {
 			bulletsPerShot = 2
 			asteroidSpawnRate = 0.012
 		case 3:
-			enemySpeed = 3.0
+			enemySpeed = 4.0
 			enemyShotInterval = 500 * time.Millisecond
 			bulletsPerShot = 3
 			asteroidSpawnRate = 0.014
