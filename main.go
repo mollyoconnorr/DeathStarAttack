@@ -214,7 +214,7 @@ func run() {
 	lives := 3
 	level := 1
 	score := 0
-	targetScore := 15
+	targetScore := 25
 
 	showInstructions := true
 	gameOver := false
@@ -289,7 +289,7 @@ func run() {
 			You must survive relentless enemy fire,
 			dodge deadly asteroids, and strike back.
 			
-			It will take 15 successful hits
+			It will take 25 successful hits
 			to destroy the Death Star.
 			
 			There are 3 escalating levels
