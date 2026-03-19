@@ -123,8 +123,8 @@ type Asteroid struct {
 	speed float64
 }
 
+// ChatGPT helped with music functions
 // --- Music control ---
-
 // currentCtrl allows us to pause/resume/stop the music.
 // currentStreamer is the audio stream that we decode and play.
 var (
