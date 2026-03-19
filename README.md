@@ -34,8 +34,8 @@ These can be installed using Go Modules (see Installation below).
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/death-star-attack.git
-cd death-star-attack
+git clone https://github.com/mollyoconnorr/DeathStarAttack.git
+cd DeathStarAttack
 ```
 
 2. **Install dependencies via Go Modules**
